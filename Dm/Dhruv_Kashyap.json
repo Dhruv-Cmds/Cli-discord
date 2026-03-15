@@ -1,0 +1,44 @@
+{
+  "users": [
+    "Dhruv",
+    "Kashyap"
+  ],
+  "messages": [
+    {
+      "sender": "Dhruv",
+      "msg": "hi"
+    },
+    {
+      "sender": "Kashyap",
+      "msg": "hi"
+    },
+    {
+      "sender": "Dhruv",
+      "msg": "you call me last night "
+    },
+    {
+      "sender": "Kashyap",
+      "msg": "yes i have some good news for use"
+    },
+    {
+      "sender": "Dhruv",
+      "msg": "what kindda news is that ?"
+    },
+    {
+      "sender": "Kashyap",
+      "msg": "its like you will get ps5 soon"
+    },
+    {
+      "sender": "Dhruv",
+      "msg": "yah tx for telling btw im busy i will call you letter"
+    },
+    {
+      "sender": "Kashyap",
+      "msg": "ok no problem see you soon."
+    },
+    {
+      "sender": "Kashyap",
+      "msg": "/e"
+    }
+  ]
+}
