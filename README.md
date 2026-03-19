@@ -128,7 +128,7 @@ msg > /e
    git push origin feature/YourFeature
   ```
 9. Open a pull request
-10. 
+
 ## License
 
 This project is licensed under the MIT License.
@@ -136,5 +136,3 @@ This project is licensed under the MIT License.
 ## Author
 
 Dhruv
-
-This project was built as a learning exercise while exploring Python backend concepts.
