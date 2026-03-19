@@ -1,52 +1,41 @@
 # CLI Discord (Python)
 
-A terminal-based messaging application built with Python.
-This project was created as a learning exercise to understand **JSON storage, file-based messaging, threading, and modular Python architecture**.
+A terminal-based messaging application built with Python. This project simulates core Discord-like features such as authentication, direct messaging, and temporary encrypted chats within a command-line interface.
 
-The application simulates basic Discord-like features such as authentication, direct messaging, and temporary encrypted chats inside a command-line interface.
+---
+
+## Project Overview
+
+This project was developed as a learning exercise to explore:
+
+- JSON-based data storage
+- Python file handling
+- Multi-threading for real-time updates
+- Modular project architecture
+- CLI application design
 
 ---
 
 ## Features
 
-* User authentication (login & register)
-* Command-line interface (Linux-style commands)
-* Direct Message (DM) system
-* Temporary encrypted chat (E2E-style chat)
-* JSON-based message storage
-* Log system for events
-* Real-time message updates using threading
-* Modular project structure
+- User authentication (login and registration)
+- Command-line interface (Linux-style commands)
+- Direct messaging (DM system)
+- Temporary encrypted chat (E2E-style messaging)
+- JSON-based message storage
+- Event logging system
+- Real-time message updates using threading
+- Clean and modular code structure
 
 ---
 
-## Screenshots
-
-### Main Menu
-![Main Menu](screenshots/menu.png)
-
-### Login
-![Authentication](screenshots/login.png)
-
-### DM
-![DM](screenshots/dm_1.png)
-![DM](screenshots/dm_2.png)
-
-### E2E
-![E2E](screenshots/e2e_1.png)
-![E2E](screenshots/e2e_2.png)
-
-### End
-![EXIT DISCORD](screenshots/exit_dc.png)
-![PROGRAM END](screenshots/end.png)
-
 ## Technologies Used
 
-* Python
-* JSON (for data storage)
-* Threading (for live chat updates)
-* File system directories
-* CLI interface
+- Python
+- JSON (data storage)
+- Threading (real-time updates)
+- File system management
+- CLI-based interface
 
 ---
 
@@ -59,85 +48,93 @@ Discord-Simulator/
 │   └── userdata.json
 │
 ├── Discord/
-│    ├── authentication.py
-│    ├── client.py
-│    ├── cmds.py
-│    ├── dc.py
-│    ├── dcpannel.py
-│    ├── logger.py
-│    ├── main.py
-│    └── server.py
+│   ├── authentication.py
+│   ├── client.py
+│   ├── cmds.py
+│   ├── dc.py
+│   ├── dcpannel.py
+│   ├── logger.py
+│   ├── main.py
+│   └── server.py
 │
 ├── DM/
 │   └── (stored DM conversations).json
 │
 ├── Logs/
-│    └──logs.json
+│   └── logs.json
 │
 ├── Pvtchat/
-│    └──(temporary encrypted chats).json
+│   └── (temporary encrypted chats).json
 │
 ├── screenshots/
-│     └── Screenshots
+│   └── Screenshots
 │
 ├── .gitattributes
-│
 ├── .gitignore
-│
 ├── LICENSE
-│
 └── README.md
 ```
-
 ---
 
 ## How It Works
 
-1. The program starts with a boot menu.
-2. Users can **register or login**.
-3. After login, the command panel opens.
-4. Users can run commands to interact with the system.
-5. Messages are stored in **JSON files** inside the DM directory.
-6. Threads are used to check for new messages and display them in real time.
+1. The application starts with a boot menu.
+2. Users can register or log in.
+3. After authentication, the command panel is displayed.
+4. Users interact using CLI commands.
+5. Messages are stored in JSON files within the DM directory.
+6. Threading enables real-time message updates.
 
 ---
 
 ## Available Commands
-
-```
-help        Show all available commands
-dm <user>   Start a direct message with a user
-e2e_chat    Start a temporary encrypted chat
-clear       Clear the terminal
-exit        Close the application
 ```
 
+help           Show all available commands  
+dm <user>      Start a direct message with a user  
+e2e_chat       Start a temporary encrypted chat  
+clear          Clear the terminal  
+exit           Close the application  
+```
 ---
 
 ## Example Usage
-
 ```
-DS> dm Alex
+DS> dm Alex 
 Press '/e' to leave the chat.
 
-msg > hello
-msg > how are you
-msg > /e
+msg > hello  
+msg > how are you  
+msg > /e  
 ```
-
 ---
 
-## Learning Goals
+## Contributing
 
-This project was built mainly to practice:
+1. Fork the repository
+2. Create a new branch:
+  ```
+   git checkout -b feature/YourFeature
+  ```
 
-* Working with JSON files
-* Python file handling
-* Multi-file project structure
-* Threading in Python
-* CLI application design
+4. Make your changes
+
+5. Commit your changes:
+  ```
+   git commit -m "Add your feature"
+  ```
+7. Push to the branch:
+  ``` 
+   git push origin feature/YourFeature
+  ```
+9. Open a pull request
+10. 
+## License
+
+This project is licensed under the MIT License.
 
 ## Author
+
 Dhruv
 
-Built as a learning project while exploring Python backend concepts.
+This project was built as a learning exercise while exploring Python backend concepts.
