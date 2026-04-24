@@ -27,7 +27,24 @@ This project was developed as a learning exercise to explore:
 - Real-time message updates using threading
 - Clean and modular code structure
 
+
+## Technical Challenges
+
+▸ Real-time messaging without a network layer — solved 
+  using Python threading to poll JSON files for new 
+  messages, simulating live chat in a single-machine 
+  environment
+
+▸ Session isolation for E2E chats — implemented 
+  temporary chat files that are cleared on session end, 
+  preventing message persistence between private sessions
+
+▸ Modular CLI design — separated concerns across 8 
+  modules (auth, client, server, commands, logger) to 
+  mirror how real chat backends are structured
+
 ---
+
 
 ## Technologies Used
 
@@ -108,6 +125,7 @@ msg > how are you
 msg > /e  
 ```
 ---
+
 
 ## Contributing
 
