@@ -1,3 +1,4 @@
+
 # CLI Discord (Python)
 
 A terminal-based messaging application built with Python. This project simulates core Discord-like features such as authentication, direct messaging, and temporary encrypted chats within a command-line interface.
