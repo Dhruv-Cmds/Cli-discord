@@ -57,6 +57,21 @@ This project was developed as a learning exercise to explore:
 
 ---
 
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Dhruv-Cmds/Cli-discord.git
+   ```
+   
+2. Navigate into the project directory:
+  ```bash
+  cd Cli-discord
+  ```
+3. Run the program:
+  python main.py
+
+---
+
 ## Project Structure
 
 ```
@@ -126,27 +141,6 @@ msg > how are you
 msg > /e  
 ```
 ---
-
-
-## Contributing
-
-1. Fork the repository
-2. Create a new branch:
-  ```
-   git checkout -b feature/YourFeature
-  ```
-
-4. Make your changes
-
-5. Commit your changes:
-  ```
-   git commit -m "Add your feature"
-  ```
-7. Push to the branch:
-  ``` 
-   git push origin feature/YourFeature
-  ```
-9. Open a pull request
 
 ## License
 
